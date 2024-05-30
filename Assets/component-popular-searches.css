@@ -1,0 +1,32 @@
+h0{
+  font-size: calc(40px + (52 - 40) * (100vw - 375px) / (1440 - 375));
+}
+h1{
+  font-size: calc(30px + (40 - 30) * (100vw - 375px) / (1440 - 375));
+}
+h2{
+  font-size: calc(20px + (24 - 20) * (100vw - 375px) / (1440 - 375));
+}
+p{
+  margin: 0;
+  font-size: calc(16px + (21 - 16) * (100vw - 375px) / (1440 - 375));
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.popular-searches__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.popular-searches__search {
+  color: inherit;
+  font-size: calc(16px + (21 - 16) * (100vw - 375px) / (1440 - 375));
+  text-decoration: none;
+}
